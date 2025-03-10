@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 166px;
+}
+
+header {
+    width: 967px;
+    height: 664px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-size: 50px;
+    color: #333;
+    text-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.div1 {
+    padding-top: 36px;
+    padding-left: 97px;
+    display: flex;
+    gap: 21px;
+}
+
+.input1, .input2 {
+    width: 200px;
+    height: 44px;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.btn {
+    width: 122px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(66, 60, 242, 1);
+    color: white;
+    font-size: 16px;
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 97px;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 97px;
+    list-style: none;
+}
+
+li {
+    background: #ffffff;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 500px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-phone {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.edit-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #e67e22;
+}
+
+.delete-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
